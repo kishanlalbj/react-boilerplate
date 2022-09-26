@@ -17,7 +17,7 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <h1>{count}</h1>
+      <h1>Counter {count}</h1>
       <button onClick={handleIncrement}> Increment </button>
       <button onClick={handleDecrement}> Decrement </button>
     </div>
